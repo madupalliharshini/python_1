@@ -1,0 +1,14 @@
+ n=int(input())
+am=n
+sum=0
+while n>0:
+    rem=n%10
+    sum=sum+rem*rem*rem
+    n=n/10
+if am==sum:
+    print("amstrong")
+else:
+    print("not amstrong")
+
+o/t: 153
+not amstrong
